@@ -57,21 +57,21 @@ python predict.py --dataset cityscapes
 
   ### Cityscapes:
 
-|  Methods   | Input Size | mIoU(%)(val) | mIoU(%)(test) |
+|  Methods   | Input Size | mIoU(%)(val) | mIoU(%)(test) |FPS
 | :--------: | :--------: | :----------: | :-----------: |
-| DBBGNet-T1 |  1536x768  |     76.3     |     75.8      |
-| DBBGNet-B1 |  1536x768  |     77.5     |     77.1      |
-| DBBGNet-T2 | 2048x1024  |     78.0     |     77.5      |
-| DBBGNet-B2 | 2048x1024  |     78.9     |     78.6      |
+| DBBGNet-T1 |  1536x768  |     76.3     |     75.8      |113.6
+| DBBGNet-B1 |  1536x768  |     77.5     |     77.1      |90.3
+| DBBGNet-T2 | 2048x1024  |     78.0     |     77.5      |81.5
+| DBBGNet-B2 | 2048x1024  |     78.9     |     78.6      |69.2
 
 ### CamVid:
 
-|  Methods  | pre-trained | Input Size | mIoU(%) |
+|  Methods  | pre-trained | Input Size | mIoU(%) |FPS
 | :-------: | :---------: | :--------: | :-----: |
-| DBBGNet-T |     no      |  960x720   |  74.9   |
-| DBBGNet-B |     no      |  960x720   |  75.6   |
-| DBBGNet-T |     yes     |  960x720   |  77.6   |
-| DBBGNet-B |     yes     |  960x720   |  78.8   |
+| DBBGNet-T |     no      |  960x720   |  74.9   |171.3
+| DBBGNet-B |     no      |  960x720   |  75.6   |137.2
+| DBBGNet-T |     yes     |  960x720   |  77.6   |171.3
+| DBBGNet-B |     yes     |  960x720   |  78.8   |137.2
 
 ## 
 
